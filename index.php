@@ -15,8 +15,6 @@ if(SNAIL_DEBUG === false) {
 	ini_set('display_errors', 'off');
 }
 
-// test
-
 require_once(__DIR__ . '/core/Snail.php');
 require_once(__DIR__ . '/core/Route.php');
 require_once(__DIR__ . '/core/Module.php');
