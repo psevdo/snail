@@ -15,12 +15,8 @@ if(SNAIL_DEBUG === false) {
 	ini_set('display_errors', 'off');
 }
 
-<<<<<<< HEAD
-=======
-$x = 0;
-$x = 5;
-echo 'test';
->>>>>>> origin/master
+// test
+
 require_once(__DIR__ . '/core/Snail.php');
 require_once(__DIR__ . '/core/Route.php');
 require_once(__DIR__ . '/core/Module.php');
