@@ -23,3 +23,5 @@ require_once(__DIR__ . '/core/View.php');
 $confg = require_once(__DIR__ . '/config/main.php');
 
 (new Core\Snail($confg))->run();
+
+	// branch dev
